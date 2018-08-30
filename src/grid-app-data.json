@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Slots",
+            "games": [
+                {
+                    "id": 1,
+                    "name": "Starburst",
+                    "thumb": "https://www.10bet.com/img/56329",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                },
+                {
+                    "id": 2,
+                    "name": "Planet of the Apes",
+                    "thumb": "https://www.10bet.com/img/56649",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                },
+                {
+                    "id": 3,
+                    "name": "Aloha! Cluster Pays",
+                    "thumb": "https://www.10bet.com/img/55665",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                },
+                {
+                    "id": 4,
+                    "name": "Drive: Multiplier Mayhem",
+                    "thumb": "https://www.10bet.com/img/55777",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                },
+                {
+                    "id": 5,
+                    "name": "Football: Champions Cup",
+                    "thumb": "https://www.10bet.com/img/56972",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                },
+                {
+                    "id": 6,
+                    "name": "Monkey Madness",
+                    "thumb": "https://www.10bet.com/img/57811",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                },
+                {
+                    "id": 7,
+                    "name": "Hansel & Gretel: Witch Hunters",
+                    "thumb": "https://www.10bet.com/img/57107",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                }
+            ]
+        }
+    ]
+}

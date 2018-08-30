@@ -1,16 +1,55 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
+import GridView from "./Components/GridView";
+import ActiveView from "./Components/ActiveView";
+import { Route, Switch } from 'react-router-dom'
+import action from './Actions/actions'
+import store from './Stores/store'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Game Grid</h1>
-        </header>
-      </div>
-    );
-  }
+    constructor (props) {
+        super(props);
+
+        this.state = {
+            categories: [],
+            isFetch: false
+        };
+
+        this.onChange = this.onChange.bind(this);
+        store.on('change', this.onChange);
+
+    }
+
+    onChange (event) {
+        this.setState({
+            category: event.categories && event.categories.length > 0 ? event.categories[0] : {},
+            isFetch: true
+        })
+    }
+
+    componentDidMount() {
+        action.fetchData();
+    }
+
+    componentWillUnmount() {
+        store.removeListener('change', this.onChange);
+    }
+
+    render() {
+        return (
+            <div>
+                <Switch>
+                    <Route path= '/active' component={ ActiveView } />
+                    <Route path='/' component={() =>
+                        <GridView
+                            category={ this.state.category }
+                            isFetch={this.state.isFetch}
+                        />}
+                    />
+                </Switch>
+            </div>
+        )
+    }
 }
 
 export default App;

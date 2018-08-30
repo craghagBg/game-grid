@@ -1,0 +1,68 @@
+ul {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px; }
+
+ul li {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #222222;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 1%;
+  width: 340px;
+  height: 500px;
+  background-color: #666666;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis; }
+
+img {
+  border-radius: 1%;
+  cursor: pointer;
+  margin-bottom: 10px; }
+
+.description {
+  height: 100px;
+  text-align: left;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis; }
+
+.row {
+  text-align: left;
+  height: 1em;
+  margin-bottom: 20px; }
+
+.short {
+  max-width: 150px;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.tags {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 300px;
+  text-align: left;
+  height: 1.5em;
+  white-space: nowrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.main {
+  margin: 0 auto;
+  text-align: center; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
