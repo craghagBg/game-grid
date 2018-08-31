@@ -1,68 +1,68 @@
-ul {
-  color: white;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px; }
-
-ul li {
-  position: relative;
-  box-sizing: border-box;
+.grid-container {
+  width: 900px;
+  margin: 5% auto;
   padding: 10px;
-  border: 1px solid #222222;
-  display: inline-block;
+  color: white;
+  display: grid;
+  grid-template-columns: 180px 180px 180px 180px 180px;
+  grid-template-rows: 180px 180px;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid-container {
+    width: 900px;
+    margin: 5% auto;
+    padding: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: 180px 180px ;
+    grid-template-rows: 180px 180px 180px 180px 180px;
+  }
+}
+
+.grid-container > div {
+  text-align: center;
   margin: 10px;
-  border-radius: 1%;
-  width: 340px;
-  height: 500px;
-  background-color: #666666;
-  overflow: hidden;
-  word-wrap: break-word;
-  text-overflow: ellipsis; }
+}
 
-img {
-  border-radius: 1%;
-  cursor: pointer;
-  margin-bottom: 10px; }
+.thumb {
+  width: 130px;
+}
 
-.description {
-  height: 100px;
-  text-align: left;
-  overflow: hidden;
-  word-wrap: break-word;
-  text-overflow: ellipsis; }
+.firstthumb {
+  width: 300px
+}
+
+.first {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.small {
+  width: 130px;
+}
 
 .row {
-  text-align: left;
-  height: 1em;
-  margin-bottom: 20px; }
-
-.short {
-  max-width: 150px;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: break-word;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-
-.tags {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  width: 300px;
-  text-align: left;
-  height: 1.5em;
-  white-space: nowrap;
-  word-wrap: break-word;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-
-.main {
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  height: 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 150px;
+}
 
-.left {
-  float: left; }
+.small-games {
 
-.right {
-  float: right; }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
+}
+
+img {
+  border-radius: 5%;
+  cursor: pointer;
+}

@@ -37,17 +37,15 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <Switch>
-                    <Route path= '/active' component={ ActiveView } />
-                    <Route path='/' component={() =>
-                        <GridView
-                            category={ this.state.category }
-                            isFetch={this.state.isFetch}
-                        />}
-                    />
-                </Switch>
-            </div>
+            <Switch>
+                <Route path= '/active' component={ ActiveView } />
+                <Route path='/' component={() =>
+                    <GridView
+                        category={ this.state.category }
+                        isFetch={this.state.isFetch}
+                    />}
+                />
+            </Switch>
         )
     }
 }

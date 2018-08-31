@@ -11,11 +11,12 @@ class GridView extends Component {
                     pathname: '/active',
                     state: { game }
                 };
+                const first = game.id === 1 ? 'first' : '';
 
                 return (
-                    <div key={ game.id } className={ 'game-' + game.id }>
+                    <div key={ game.id } className={ first }>
                         <Link to={ linkData }>
-                            <img src={ game.thumb } alt={ game.name }/>
+                            <img src={ game.thumb } alt={ game.name } className={first + 'thumb'}  />
                         </Link>
                         <div className='row'>{ game.name }</div>
                     </div>
@@ -25,7 +26,7 @@ class GridView extends Component {
             return (
                 <div>
                     <Header title={this.props.category.title}/>
-                    <div className='container'>
+                    <div className='grid-container'>
                         { games }
                     </div>
                 </div>
