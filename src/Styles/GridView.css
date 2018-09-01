@@ -1,4 +1,6 @@
 .grid-container {
+  align-items: center;
+  justify-content: center;
   width: 900px;
   margin: 5% auto;
   padding: 10px;
@@ -10,6 +12,8 @@
 
 @media only screen and (max-width: 900px) {
   .grid-container {
+    align-items: center;
+    justify-content: center;
     width: 900px;
     margin: 5% auto;
     padding: 10px;
@@ -27,10 +31,12 @@
 
 .thumb {
   width: 130px;
+  box-shadow: 6px 6px 3px #222222;
 }
 
 .firstthumb {
-  width: 300px;
+  width: 320px;
+  box-shadow: 6px 6px 3px #222222;
 }
 
 .first {
