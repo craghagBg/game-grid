@@ -30,7 +30,7 @@
 }
 
 .firstthumb {
-  width: 300px
+  width: 300px;
 }
 
 .first {
@@ -38,10 +38,6 @@
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 3;
-}
-
-.small {
-  width: 130px;
 }
 
 .row {
@@ -54,15 +50,7 @@
   width: 150px;
 }
 
-.small-games {
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-}
-
-img {
-  border-radius: 5%;
-  cursor: pointer;
+.error {
+  text-align: center;
+  color: white;
 }

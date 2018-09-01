@@ -42,7 +42,7 @@ class App extends Component {
                 <Route path='/' component={() =>
                     <GridView
                         category={ this.state.category }
-                        isFetch={this.state.isFetch}
+                        isFetch={ this.state.isFetch }
                     />}
                 />
             </Switch>
