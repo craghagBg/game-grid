@@ -9,3 +9,5 @@ Run npm install -> npm start -> Navigate to http://localhost:3000/
 Running unit tests
 Run npm test to execute the unit tests.
 
+Live version: http://game-grid.free.bg/
+
